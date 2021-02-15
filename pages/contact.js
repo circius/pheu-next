@@ -1,7 +1,7 @@
 import Layout from '../components/layout'
 import { getPageData } from '../lib/pages'
 
-import styles from '../styles/Home.module.css'
+/* import styles from '../styles/Contact.module.css' */
 
 export default function Home({ content }) {
   return (
@@ -12,7 +12,7 @@ export default function Home({ content }) {
 }
 
 export const getStaticProps = async () => {
-  const content = await getPageData('index')
+  const content = await getPageData('contact')
   return {
     props: { content }
   }
