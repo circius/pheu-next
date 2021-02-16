@@ -1,6 +1,7 @@
 import Layout from '../components/layout'
 import { getAllPages } from '../lib/pages'
 import ReactMarkdown from 'react-markdown'
+import Project from '../components/project'
 
 /* import styles from '../styles/Projects.module.css' */
 
@@ -8,7 +9,10 @@ export default function Projects({ projects }) {
   return (
     <Layout>
       {projects.map(
-        project => <ReactMarkdown>{project.content}</ReactMarkdown>
+        project => <Project
+          key={project.id}
+          {...project}
+        />
       )}
 
     </Layout>
