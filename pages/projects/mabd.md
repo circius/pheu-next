@@ -3,7 +3,8 @@ name: Mutual Aid Brighton logistics app
 year: 2020
 source: https://github.com/circius/mabd-flask
 ---
-![mabd-flask's very simple interface]("../../public/images/mabd.png")
+
+![mabd-flask's very simple interface](/images/mabd.png)
 
 During the summer of 2020, a friend in Brighton was running a
 voluntary just-in-time furniture delivery service that took furniture

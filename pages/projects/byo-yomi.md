@@ -4,10 +4,11 @@ year: 2017
 source: https://github.com/circius/byo-yomi
 ---
 
-# byo-yomi (2017)
- When I wanted to play the japanese game go with a friend over the
- board, we couldn't find a straightforward timer that would work on
- his phone.
+![byo-yomi's menu](/images/byo-yomi.png)
+
+When I wanted to play the japanese game go with a friend over the
+board, we couldn't find a straightforward timer that would work on
+his phone.
 
 Naively, i thought I could do better. I wrote this app with the
 beautiful javascript framework [mithril](https://mithril.js.org/), and everything was done within

@@ -3,7 +3,8 @@ name: dipbot
 year: 2020
 source: https://github.com/circius/webdiplomacy-bot
 ---
-![dipbot's api]("../../public/images/dipbot.png")
+
+![dipbot's api](/images/dipbot.png)
 
 When the pandemic hit and the hard lockdowns of 2020 were imposed, I
 decided with some friends to play the infamously cruel boardgame [Diplomacy](https://boardgamegeek.com/boardgame/483/diplomacy) online at [webdiplomacy](https://webdiplomacy.net/).
