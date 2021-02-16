@@ -1,12 +1,13 @@
 import Layout from '../components/layout'
 import { getPageData } from '../lib/pages'
+import ReactMarkdown from 'react-markdown'
 
 /* import styles from '../styles/Skills.module.css' */
 
-export default function Home({ content }) {
+export default function Skills({ content }) {
   return (
     <Layout>
-      <div dangerouslySetInnerHTML={{ __html: content.contentHtml }} />
+      <ReactMarkdown>{content.content}</ReactMarkdown>
     </Layout>
   )
 }

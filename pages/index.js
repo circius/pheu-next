@@ -1,12 +1,13 @@
 import Layout from '../components/layout'
 import { getPageData } from '../lib/pages'
+import ReactMarkdown from 'react-markdown'
 
 import styles from '../styles/Home.module.css'
 
 export default function Home({ content }) {
   return (
     <Layout>
-      <div dangerouslySetInnerHTML={{ __html: content.contentHtml }} />
+      <ReactMarkdown>{content.content}</ReactMarkdown>
     </Layout>
   )
 }
