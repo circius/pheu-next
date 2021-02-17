@@ -4,10 +4,17 @@ import HomeLink from './homeLink.js'
 
 const Header = () => {
   return (
-    <div className='Header'>
+    <nav className='Header'>
       <HomeLink />
       <PageLinks links={headerLinks} />
-    </div>
+      <style jsx>{`
+        nav {
+          display: flex;
+          justify-content: space-between;
+                }
+      `}
+      </style>
+    </nav>
   )
 }
 

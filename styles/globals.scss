@@ -1,6 +1,8 @@
 $bgcolor: #141414;
 $textcolor: #dadada;
 $highlight: #ffc400;
+$proseWidth: 65ch;
+
 html,
 body {
   padding: 0;
@@ -17,6 +19,27 @@ a {
   color: $highlight;
 }
 
+h1,
+h2,
+h3 {
+  font-size: medium;
+}
+
+h1,
+h2 {
+  color: $highlight;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 * {
   box-sizing: border-box;
+}
+
+p {
+  max-width: $proseWidth;
+  padding: 0 1ch;
 }

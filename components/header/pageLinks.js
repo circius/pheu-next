@@ -8,7 +8,13 @@ const PageLinks = ({ links }) => {
           <a>{link.label}</a>
         </Link>)
       }
+      <style jsx>{`
+        a {
+          padding-left: .5em;
+        }
+    `}</style>
     </div>
+
   )
 }
 

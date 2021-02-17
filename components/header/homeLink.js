@@ -9,6 +9,11 @@ const HomeLink = () => {
       <Link href="/pheu">
         <a>!</a>
       </Link>
+      <style jsx>{`
+          div {
+            font-style:
+          }
+        `}</style>
     </div>
   )
 }
