@@ -2,9 +2,12 @@
 name: blrequests
 year: 2018
 source: https://github.com/circius/blrequests
+imgLg: /images/blrequests-md.png
+imgWidth: 558
+imgHeight: 49
+imgSm: /images/blrequests-small.png
+imgAlt: "sample output of blrequests"
 ---
-
-![sample output of blrequests](/images/blrequests-md.png)
 
 I spent a lot of time in the last 10 years in and out of the [British Library](https://bl.uk).
 

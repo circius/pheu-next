@@ -43,3 +43,13 @@ p {
   max-width: $proseWidth;
   padding: 0 1ch;
 }
+
+img {
+  width: auto;
+  height: auto;
+}
+
+figcaption {
+  font-size: smaller;
+  opacity: 80%;
+}

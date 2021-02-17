@@ -2,9 +2,11 @@
 name: byo-yomi
 year: 2017
 source: https://github.com/circius/byo-yomi
+imgLg: /images/byo-yomi-sm.png
+imgHeight: 257
+imgWidth: 536
+imgAlt: "byo-yomi's menu"
 ---
-
-![byo-yomi's menu](/images/byo-yomi.png)
 
 When I wanted to play the japanese game go with a friend over the
 board, we couldn't find a straightforward timer that would work on

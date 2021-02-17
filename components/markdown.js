@@ -8,7 +8,7 @@ const renderers = {
         <a>{children}</a>
       </Link>
     )
-  },
+  }
 }
 
 const Markdown = ({ children }) => {

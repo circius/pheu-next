@@ -1,6 +1,6 @@
+import { useState } from 'react'
 import Layout from '../components/layout'
 import { getAllPages } from '../lib/pages'
-import ReactMarkdown from 'react-markdown'
 import Project from '../components/project'
 
 /* import styles from '../styles/Projects.module.css' */
@@ -14,7 +14,6 @@ export default function Projects({ projects }) {
           {...project}
         />
       )}
-
     </Layout>
   )
 }
