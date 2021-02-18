@@ -7,12 +7,21 @@ const HomeLink = () => {
         <a>PHEU</a>
       </Link>
       <Link href="/pheu">
-        <a>!</a>
+        <a className="bang">!</a>
       </Link>
       <style jsx>{`
           div {
-            font-style:
+            font-style: oblique;
+            font-weight: bolder;
+            font-size: xx-large;
           }
+          .bang {
+            font-size: "";
+          }
+          .bang:hover {
+            color: fuchsia
+          }
+          
         `}</style>
     </div>
   )
