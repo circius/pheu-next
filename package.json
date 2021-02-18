@@ -21,6 +21,7 @@
   "devDependencies": {
     "image-size": "^0.9.3",
     "prettier": "^2.2.1",
+    "react-icons": "^4.2.0",
     "remark-unwrap-images": "^2.0.0",
     "sass": "^1.32.7"
   }
