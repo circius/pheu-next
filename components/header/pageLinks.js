@@ -24,6 +24,9 @@ const PageLinks = ({ links }) => {
         a {
           padding-left: .5em;
         }
+        div {
+          text-align: right
+        }
     `}</style>
     </div>
 
