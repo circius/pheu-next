@@ -2,7 +2,7 @@ const Fleuron = () => {
   return (
     <div >
       <hr />
-      <span>🙛</span>
+      <span>&#128603;</span>
       <style jsx>{`
       hr {
         width: 80%;
