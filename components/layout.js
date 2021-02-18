@@ -15,6 +15,10 @@ const Layout = ({ children }) => {
           max-width: 62ch;
           margin: auto;
         }
+        hr {
+          opacity: 20%;
+          width:100vw;
+        }
       `}</style>
     </div>
   )
