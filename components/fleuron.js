@@ -14,7 +14,8 @@ const Fleuron = () => {
         flex-direction: column;
         align-self: center;
         width:80vw;
-        margin: 4ch 0ch
+        margin: 4ch 0ch;
+        max-width: 58ch;
       }
       span {
         font-size: 7ch;
