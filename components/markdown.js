@@ -11,9 +11,9 @@ const renderers = {
   }
 }
 
-const Markdown = ({ children }) => {
+const Markdown = ({ children, className }) => {
   return (
-    <ReactMarkdown renderers={renderers}>{children}</ReactMarkdown>
+    <ReactMarkdown renderers={renderers} className={[className, "markdown"].join(" ")}>{children}</ReactMarkdown>
   )
 }
 

@@ -1,20 +1,21 @@
 import Markdown from '../components/markdown'
 import Link from 'next/link'
 import Image from 'next/image'
+import Fleuron from '../components/fleuron'
 
 const SourceLink = ({ url }) => {
   return (
-    <Link href={url}>
-      <a>source link
-      <style jsx>
-          {`
-        a {
-          align-self: end
-        }
-        `}
-        </style>
+    <div>
+      <Link href={url}>
+        <a>source link
       </a>
-    </Link>
+      </Link>
+      <style jsx>{`
+      div {
+        align-self: end;
+      }
+      `}</style>
+    </div>
   )
 }
 
@@ -36,10 +37,12 @@ const Project = ({ name, year, source, content, imgData, imgLg, imgHeight, imgWi
         {content}
       </Markdown>
       <SourceLink url={source} />
+      <Fleuron />
       <style jsx>{`
       article {
-        padding-bottom: 6em;
-        min-height: 100vw
+        padding-bottom: 2em;
+        display: flex;
+        flex-direction: column;
       }
     `}
       </style>

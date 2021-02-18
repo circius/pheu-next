@@ -1,13 +1,15 @@
 import Layout from '../components/layout'
 import { getPageData } from '../lib/pages'
-import ReactMarkdown from 'react-markdown'
+import Markdown from '../components/markdown'
 
-/* import styles from '../styles/Skills.module.css' */
 
 export default function Skills({ content }) {
+
   return (
     <Layout>
-      <ReactMarkdown>{content.content}</ReactMarkdown>
+      <article>
+        <Markdown className="skills">{content.content}</Markdown>
+      </article>
     </Layout>
   )
 }

@@ -11,6 +11,8 @@ const Header = () => {
         nav {
           display: flex;
           justify-content: space-between;
+          max-width: 1152px;
+          margin: auto;
                 }
       `}
       </style>

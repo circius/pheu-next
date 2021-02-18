@@ -19,6 +19,10 @@ a {
   color: $highlight;
 }
 
+a :hover {
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3 {
@@ -30,6 +34,11 @@ h2 {
   color: $highlight;
 }
 
+h2,
+h3 {
+  padding-left: 1ch;
+}
+
 h1 {
   text-transform: uppercase;
   font-style: italic;
@@ -39,8 +48,22 @@ h1 {
   box-sizing: border-box;
 }
 
-p {
+li {
+  list-style: none;
+}
+
+li:before {
+  content: "➛";
+  color: $highlight;
+}
+
+p,
+ul,
+li {
   max-width: $proseWidth;
+  padding-left: 2ch;
+}
+p {
   padding: 0 1ch;
 }
 
@@ -52,4 +75,11 @@ img {
 figcaption {
   font-size: smaller;
   opacity: 80%;
+}
+
+.skills p {
+  border-left: solid;
+  border-width: 1px;
+  margin-left: 4ch;
+  border-color: $highlight;
 }

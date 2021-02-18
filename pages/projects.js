@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Layout from '../components/layout'
 import { getAllPages } from '../lib/pages'
 import Project from '../components/project'
@@ -8,12 +7,20 @@ import Project from '../components/project'
 export default function Projects({ projects }) {
   return (
     <Layout>
-      {projects.map(
-        project => <Project
-          key={project.id}
-          {...project}
-        />
-      )}
+      <div>
+        {projects.map(
+          project => <Project
+            key={project.id}
+            {...project}
+          />
+        )}
+      </div>
+      <style jsx>{`
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+      `}</style>
     </Layout>
   )
 }
