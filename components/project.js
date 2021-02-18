@@ -12,7 +12,7 @@ const SourceLink = ({ url }) => {
       </Link>
       <style jsx>{`
       div {
-        align-self: end;
+        align-self: flex-end;
       }
       `}</style>
     </div>
