@@ -5,7 +5,7 @@ const Skill = ({ title, content }) => {
   return (
     <article>
       <h1>{title}</h1>
-      <Markdown>
+      <Markdown className="skill">
         {content}
       </Markdown>
       <Fleuron />
