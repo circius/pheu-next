@@ -2,6 +2,7 @@ $bgcolor: #141414;
 $textcolor: #dadada;
 $highlight: #ffc400;
 $proseWidth: 65ch;
+$rules: #343434;
 
 html,
 body {
@@ -20,7 +21,7 @@ a {
   color: $highlight;
 }
 
-a :hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -78,9 +79,9 @@ figcaption {
   opacity: 80%;
 }
 
-.skills p {
+.skill p {
   border-left: solid;
   border-width: 1px;
   margin-left: 4ch;
-  border-color: $highlight;
+  border-color: $rules;
 }
