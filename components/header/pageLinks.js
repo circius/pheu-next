@@ -4,9 +4,9 @@ import { FaGithub, FaEnvelope } from 'react-icons/fa'
 const getLabel = link => {
   switch (link.label) {
     case "Github":
-      return <FaGithub />
+      return <FaGithub size="1.2em" />
     case "Contact":
-      return <FaEnvelope />
+      return <FaEnvelope size="1.2em" />
     default:
       return link.label
   }
