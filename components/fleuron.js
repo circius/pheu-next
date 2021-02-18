@@ -4,7 +4,7 @@ const Fleuron = () => {
       🙛
       <style jsx>{`
       div {
-        font-size-adjust: 2;
+        font-size: 16ch;
         align-self: center;
       }
     `}</style>
