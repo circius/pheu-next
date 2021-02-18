@@ -1,22 +1,32 @@
 import Layout from '../components/layout'
-import { getPageData } from '../lib/pages'
-import Markdown from '../components/markdown'
+import { getAllPages } from '../lib/pages'
+import Skill from '../components/skill'
 
-
-export default function Skills({ content }) {
-
+export default function Skills({ skills }) {
   return (
     <Layout>
-      <article>
-        <Markdown className="skills">{content.content}</Markdown>
-      </article>
+      <div>
+        {skills.map(
+          skill => <Skill
+            key={skill.id}
+            {...skill}
+          />
+        )}
+      </div>
+      <style jsx>{`
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+      `}</style>
     </Layout>
   )
 }
 
 export const getStaticProps = async () => {
-  const content = await getPageData('skills')
+  const skills = await getAllPages('skills')
+  const sorted = skills.sort((a, b) => a.order - b.order)
   return {
-    props: { content }
+    props: { skills: sorted }
   }
 }
