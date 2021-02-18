@@ -1,4 +1,4 @@
 ---
 ---
 
-✉: [hello@pheu.org](hello@pheu.org)
+✉: hello (at) pheu.org
