@@ -13,10 +13,7 @@ const HomeLink = () => {
           div {
             font-style: oblique;
             font-weight: bolder;
-            font-size: xx-large;
-          }
-          .bang {
-            font-size: "";
+            font-size: 3vh;
           }
           .bang:hover {
             color: fuchsia
