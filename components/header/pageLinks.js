@@ -1,12 +1,21 @@
 import Link from 'next/link'
+import Icon from './icon'
 import { FaGithub, FaEnvelope } from 'react-icons/fa'
 
 const getLabel = link => {
   switch (link.label) {
     case "Github":
-      return <FaGithub size="1.2em" />
+      return (
+        <Icon>
+          <FaGithub size="1.6em" />
+        </Icon>
+      )
     case "Contact":
-      return <FaEnvelope size="1.2em" />
+      return (
+        <Icon>
+          <FaEnvelope size="1.6em" />
+        </Icon>
+      )
     default:
       return link.label
   }
@@ -22,10 +31,14 @@ const PageLinks = ({ links }) => {
       }
       <style jsx>{`
         a {
-          padding-left: .5em;
+          padding-left:2em;
+          padding-top:.5em;
         }
         div {
-          text-align: right
+          display: flex;
+          flex-wrap: wrap;
+          justify-contents: flex-end;
+          align-items: flex-end;
         }
     `}</style>
     </div>

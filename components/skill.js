@@ -9,7 +9,14 @@ const Skill = ({ title, content }) => {
         {content}
       </Markdown>
       <Fleuron />
+      <style jsx>{`
+      article {
+        display: flex;
+        flex-direction: column;
+      }
+    `}</style>
     </article>
+
   )
 }
 

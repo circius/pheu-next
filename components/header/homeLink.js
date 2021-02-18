@@ -3,17 +3,24 @@ import Link from 'next/link'
 const HomeLink = () => {
   return (
     <div className='HomeLink'>
-      <Link href="/">
-        <a>PHEU</a>
-      </Link>
-      <Link href="/pheu">
-        <a className="bang">!</a>
-      </Link>
+      <span className="logo">
+        <Link href="/">
+          <a>PHEU</a>
+        </Link>
+        <Link href="/pheu">
+          <a className="bang">!</a>
+        </Link>
+      </span>
+
+      <span className="tag"> // personal website of simon bull</span>
       <style jsx>{`
-          div {
+          span.logo {
             font-style: oblique;
             font-weight: bolder;
             font-size: 3vh;
+          }
+          span.tag{
+            opacity: 66%;
           }
           .bang:hover {
             color: fuchsia
