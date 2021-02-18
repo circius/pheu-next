@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
         }
         hr {
           opacity: 20%;
-          width:100vw;
+          width:98vw;
         }
       `}</style>
     </div>
